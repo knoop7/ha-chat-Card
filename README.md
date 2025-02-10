@@ -1,6 +1,6 @@
 # 🤖 Home Assistant Chat Card Web Component
 
-[中文版本](#中文版本)
+[[中文版本](#中文版本)](https://github.com/knoop7/ha-chat-Card/blob/hass/ZH_README.md)
 
 ## 🌟 Overview
 `ha-chat-card` is a powerful and highly customizable AI chat interface for Home Assistant, providing an intelligent, multilingual, and seamless conversational experience.
