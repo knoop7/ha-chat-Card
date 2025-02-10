@@ -2,70 +2,39 @@
 
 [中文版本](#中文版本)
 
-## 🌟 Advanced AI Interaction Platform
-
-`ha-chat-card` is a sophisticated, highly customizable AI chat interface for Home Assistant, designed to provide an intelligent, multilingual, and feature-rich conversational experience.
+## 🌟 Overview
+`ha-chat-card` is a powerful and highly customizable AI chat interface for Home Assistant, providing an intelligent, multilingual, and seamless conversational experience.
 
 ## 🚀 Version
-**Current Version:** `2025.01.25`
+**Latest Release:** `2025.01.25`
 
-## ✨ Key Features
+## ✨ Features
 
-### 1. Intelligent Conversation Engine
-- **Deep Thinking Mode**:
-  - Comprehensive AI thought process before responding
-  - Natural, stream-of-consciousness reasoning
-  - Multi-dimensional problem analysis
-  - Transparent thought process visualization
+### 🔹 Intelligent AI Engine
+- **Deep Thinking Mode**: Advanced reasoning, multi-dimensional problem analysis, and transparent thought process visualization.
+- **Typing Effect**: Simulates real-time AI thinking for a more natural interaction.
 
-### 2. Voice Interaction
-- **Voice Recognition**:
-  - Voice input by long-pressing send button
-  - Cross-platform support (Android, iOS)
-  - Browser compatibility (recommended Chrome)
+### 🎙️ Voice Interaction
+- **Voice Recognition**: Supports voice input via long-press send button on Android and iOS, optimized for Chrome.
+- **Wake Word Activation**: Customizable wake words, low-latency recognition, microphone permission handling, and wake-up sound customization.
 
-- **Wake Word Activation**:
-  - Custom wake word
-  - Low-latency recognition
-  - Microphone permission management
-  - Wake-up sound customization
+### 🌍 Multilingual Support
+- Configurable interface and response languages.
+- Supports Chinese (Simplified) `zh-cn` with extensibility for additional languages.
 
-### 3. Multilingual Support
-- Interface language configuration
-- AI response language customization
-- Currently supported languages:
-  - Chinese (Simplified) `zh-cn`
-  - (Extensible)
+### 🤖 AI Agent Management
+- Configurable multi-agent priority settings.
+- Supports up to three parallel AI agents with intelligent switching and automatic fallback mechanisms.
 
-### 4. AI Agent Management
-- Multiple AI agent priority configuration
-- Intelligent switching keywords
-- Support for up to 3 parallel AI agents
-- Automatic fallback mechanism
+### 🔊 Text-to-Speech (TTS)
+- Multiple TTS engine modes: Off, browser playback, Home Assistant service call.
+- Configurable voice devices and engine selection.
 
-### 5. Text-to-Speech (TTS)
-- Multiple TTS engine modes
-  - Off
-  - Browser playback
-  - Home Assistant service call
-- Support for various TTS engines
-- Selectable voice devices and roles
+### 🔧 Configuration & Security
+- **Session Management**: Conversation history storage, session ID persistence, and cookie storage.
+- **Performance Optimization**: Low resource consumption, intelligent audio context unlocking, and an anti-conflict design.
 
-### 6. Interaction Experience Optimization
-- **Typing Effect**
-  - Simulate real-time AI thinking
-  - More natural conversation experience
-- Conversation history management
-- Session ID persistence
-- Cookie storage
-
-### 7. Security & Performance
-- Intelligent audio context unlocking
-- Anti-conflict design
-- Low resource consumption
-- Browser compatibility
-
-## 🔧 Configuration Example
+## 📌 Configuration Example
 ```yaml
 type: custom:ha-chat-card
 agent_id: conversation.home_assistant
@@ -78,3 +47,52 @@ response_language: 'en'
 deep_think: true
 tts_mode: 'service'
 tts_engine: 'tts.google_translate'
+```
+
+## 📦 Installation Guide
+
+### Prerequisites
+- Home Assistant (2023.x or later)
+- Modern browser supporting ES modules (Chrome, Firefox, Edge)
+- Microphone permissions (optional)
+
+### Installation Steps
+1. Copy `ha-chat-card.js` to Home Assistant's `www` directory.
+2. Add the following to `configuration.yaml`:
+
+```yaml
+frontend:
+  extra_module_url:
+    - /local/ha-chat-card.js
+```
+
+## ⚙️ Advanced Configuration
+
+### Wake Word Settings
+- Use simple 2-4 word phrases.
+- Avoid complex sentences.
+- Supports custom wake-up sounds.
+
+### TTS Service Configuration
+- Select an appropriate voice engine.
+- Configure media playback devices.
+- Supports personalized voice selection.
+
+## 🌐 Compatibility
+- **Desktop Browsers:** Chrome, Firefox, Edge.
+- **Mobile Devices:** Android, iOS.
+- **Home Assistant:** 2023.x and above.
+
+## 🤝 Contributing
+We welcome contributions! Feel free to submit issues and pull requests to improve this project.
+
+## 📜 License
+[Specify your license]
+
+## 🔗 Related Projects
+- Home Assistant
+- Web Components
+
+## 📞 Support
+For issues and discussions, please submit an issue in the project repository.
+
