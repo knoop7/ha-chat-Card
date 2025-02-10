@@ -86,8 +86,6 @@ frontend:
 ## 🤝 Contributing
 We welcome contributions! Feel free to submit issues and pull requests to improve this project.
 
-## 📜 License
-[Specify your license]
 
 ## 🔗 Related Projects
 - Home Assistant
