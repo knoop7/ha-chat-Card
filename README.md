@@ -78,7 +78,8 @@ frontend:
 - Configure media playback devices.
 - Supports personalized voice selection.
 - If Android users cannot run voice recognition, please manually download it from the official website  https://play.google.com/store/apps/details?id=com.google.android.tts
-- 
+
+
 ## 🌐 Compatibility
 - **Desktop Browsers:** Chrome, Firefox, Edge.
 - **Mobile Devices:** Android, iOS.
