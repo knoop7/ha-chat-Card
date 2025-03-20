@@ -78,6 +78,7 @@ frontend:
 - 选择合适的语音引擎。
 - 配置媒体播放设备。
 - 支持个性化语音选择。
+- 安卓用户如果无法运行语音识别，请手动去官方下载安装 https://play.google.com/store/apps/details?id=com.google.android.tts
 
 ## 🌐 兼容性
 - **桌面浏览器**：Chrome、Firefox、Edge。
